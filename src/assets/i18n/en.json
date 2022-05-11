@@ -1,0 +1,510 @@
+{
+   "loginform":{
+      "titleheader":"Welcome",
+      "titlechild":"Sign in to Engage System",
+      "buttonlogin":"SIGN IN",
+      "email":"Email",
+      "password":"Password",
+      "placeholdercaptcha":"Entry Chaptcha",
+      "linkforgotpassword":"FORGET PASSWORD?"
+   },
+   "forgotpasswordform":{
+      "title":"Forgot Password",
+      "titlechild":"Reset password to Engage System",
+      "buttonforgot":"SUBMIT",
+      "buttoncancel":"CANCEL",
+      "email":"Email"
+   },
+   "submitforgotpasswordform":{
+      "title":"Reset Password Request",
+      "body":"Submit for reset password has been success, Please check your mailbox fo reset password instruction.",
+      "body2":"Haven't got an e-mail?",
+      "linkbodysendemail":"Click here",
+      "buttonsubmit":"GO TO LOGIN"
+   },
+   "resetpasswordform":{
+      "title":"Reset Password",
+      "newpassword":"Entry your New Password",
+      "confirmnewpassword":"Confirm New Password",
+      "buttonreset":"SAVE"
+   },
+   "settingform":{
+      "title":"Settings",
+      "language":"Language",
+      "userprofile":"User Profile",
+      "layout":"Layout",
+      "colors":"Colors",
+      "darkmode":"Dark Mode"
+   },
+   "profileform":{
+      "title":"Profile",
+      "buttoncancel":"CANCEL",
+      "buttonsave":"SAVE",
+      "people":{
+         "title":"People Information",
+         "fullname":"Full Name",
+         "email":"Email",
+         "phone":"Phone",
+         "birthplace":"Birth Place",
+         "birthdate":"Birth Date"
+      },
+      "address":{
+         "title":"Address Information",
+         "buildingname":"Building Name",
+         "address":"Address",
+         "village/district":"Village and District",
+         "city/state":"City and State",
+         "rt/rw":"Rt / Rw",
+         "zipcode":"Zipcode"
+      },
+      "office":{
+         "title":"Office Information",
+         "workposition":"Work Position",
+         "directsupervisor":"Direct Supervisor",
+         "employetype":"Employe Type",
+         "companyname":"Company Name",
+         "activedate":"Active Date",
+         "inactivedate":"Inactive Date",
+         "employmentstatus":"Employment Status",
+         "department":"Department",
+         "division":"Division",
+         "workgroup":"Work Group",
+         "location":"Location"
+      }
+   },
+   "customer": {
+      "title": "Customers Management",
+      "buttonregister": "Register Customers",
+      "buttonsearch": "Search",
+      "buttonEntry": "Entry",
+      "salutation": "Salutation",
+      "fullname": "Fullname",
+      "idenNum": "Identity Number",
+      "momName": "Mother Name",
+      "birthPlace": "Birth Place",
+      "birthDate": "Birth Date",
+      "gender": "Gender",
+      "religion": "Religion",
+      "married": "Marital Status",
+      "dependNum": "Number Dependent",
+      "occupation": "Occupation",
+      "subOccupation": "Sub Occupation",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "compName": "Company Name",
+      "compGroup": "Company Group",
+      "compType": "Company Type",
+      "establish": "Establish Since",
+      "industry": "Industry Type",
+      "subindustry": "Subindustry Type",
+      "register": {
+         "title": "Register Customer",
+         "custType": "Choose Customer Type"
+      },
+      "detail": {
+         "title": "Customer Details",
+         "custType": "Customer Type"
+      },
+      "address": {
+         "addrType": "Address Type",
+         "addr": "Address",
+         "building": "Building Name",
+         "neighbour": "Neighbourhood Number",
+         "hamlet": "Hamlet Number",
+         "village": "Village",
+         "district": "District",
+         "subdistrict": "Sub District",
+         "city": "City",
+         "state": "State",
+         "zipcode": "Zipcode"
+      },
+      "identity": {
+         "idenType": "Identity Type",
+         "idNum": "Id Number",
+         "valid": "Valid Until"
+      },
+      "member": {
+         "workType": "Work Type"
+      },
+      "education": {
+         "educType": "Education Type",
+         "major": "Major",
+         "institution": "Institution Name",
+         "startDate": "Start Date",
+         "endDate": "Until"
+      },
+      "family": {
+         "famiType": "Family Type"
+      },
+      "income": {
+         "incoType": "Income Type",
+         "amount": "Amount"
+      },
+      "work": {
+         "workType": "Work Type",
+         "position": "Work Position",
+         "length": "Length of Work",
+         "emplStat": "Employment Status"
+      }
+   },
+   "userForm":{
+      "titleList":"User Management",
+      "titleRegister":"Register User",
+      "titleDetail":"User Detail",
+      "popupSuccess":"Success",
+      "popupError":"Error",
+      "invalid":"Form still invalid",
+      "errorGeneric":"Somethings wrong on the server",
+      "noRoles":"No Role",
+      "button":{
+         "register":"REGISTER",
+         "search":"SEARCH",
+         "detail":"DETAIL",
+         "cancel":"CANCEL",
+         "save":"SAVE",
+         "edit":"EDIT",
+         "reset":"RESET"
+      },
+      "tableField":{
+         "email":"Email",
+         "fullName":"Full Name",
+         "role":"Role(s)",
+         "active":"Active",
+         "action":"Action"
+      },
+      "formField":{
+         "email":"Email",
+         "firstName":"First Name",
+         "lastName":"Last Name",
+         "active":"Active",
+         "password":"Password",
+         "confPassword":"Confirm Password",
+         "role":"Role(s)",
+         "selectedRole":"Selected Role(s)",
+         "resetPassword":"Reset Password"
+      },
+      "validation":{
+         "emailRequired":"Email is required.",
+         "emailNoWhiteSpace":"Email not only space or start with it.",
+         "emailFormat":"Email must be in correct format",
+         "firstNameRequired":"First Name is required.",
+         "firstNameNoWhiteSpace":"First Name not only space or start with it.",
+         "firstNameAlphabet":"First Name must be alphabetic.",
+         "lastNameRequired":"Last Name is required.",
+         "lastNameNoWhiteSpace":"Last Name not only space or start with it.",
+         "lastNameAlphabet":"Last Name must be alphabetic.",
+         "passwordRequired":"Password is required.",
+         "passwordMinLength":"Password minimum 8 characters.",
+         "passwordConfirm":"Confirm Password must same with Password."
+      },
+      "etc":{
+         "searchPlaceHolder":"Search Users",
+         "yesno":[
+            "Yes",
+            "No"
+         ]
+      }
+   },
+   "roleForm":{
+      "titleList":"Role Management",
+      "titleRegister":"Register Role",
+      "titleDetail":"Role Detail",
+      "popupSuccess":"Success",
+      "popupError":"Error",
+      "invalid":"Form still invalid",
+      "errorGeneric":"Somethings wrong on the server",
+		"button":{
+			"register":"REGISTER",
+			"search":"SEARCH",
+			"detail":"DETAIL",
+			"cancel":"CANCEL",
+			"save":"SAVE",
+			"edit":"EDIT"
+		},
+		"tableField":{
+			"name":"Name",
+			"description":"Description",
+			"active":"Active",
+			"action":"Action"
+		},
+		"formField":{
+			"name":"Name",
+			"description":"Description",
+			"active":"Active",
+			"permission":"Permission",
+			"button":"Button"            
+		},
+		"validation":{
+			"nameRequired" : "Name is required.",
+			"nameNoWhiteSpace" : "Name not only space or start with it."
+		},
+		"etc":{
+			"searchPlaceHolder":"Search Roles",
+			"yesno":[
+				"Yes",
+				"No"
+			]
+		}      
+   },
+   "menuForm":{
+      "titleList":"Menu Management",
+      "titleRegister":"Register Menu",
+      "titleDetail":"Menu Detail",
+      "popupSuccess":"Success",
+      "popupError":"Error",
+      "invalid":"Form still invalid",
+      "errorGeneric":"Somethings wrong on the server",
+		"button":{
+			"register":"REGISTER",
+			"search":"SEARCH",
+			"detail":"DETAIL",
+			"cancel":"CANCEL",
+			"save":"SAVE",
+			"edit":"EDIT"
+		},
+		"tableField":{
+			"name":"Name",
+			"moduleCategory":"Module",
+			"type":"Type",
+			"priority":"Priority",
+			"active":"Active",
+			"action":"Action"
+		},
+		"formField":{
+			"name":"Name",
+			"description":"Description",
+			"icon":"Icon",
+			"module":"Module",
+			"type":"Type",
+			"parent":"Parent",
+			"route":"Route",
+			"host":"Host",
+			"priority":"Priority",
+			"active":"Active",
+			"iconPreview":"Icon Preview:",
+			"noIcon":"No Icon",
+			"button":"Button(s)",
+			"selectedButton":"Selected Button(s)"
+		},
+		"validation":{
+			"nameRequired" : "Name is required.",
+			"nameNoWhiteSpace" : "Name not only space or start with it.",
+			"moduleRequired" : "Module is required.",
+			"typeNeedModule" : "Please select Module before selecting Child.",
+			"typeRequired" : "Type is required.",
+			"parentRequired" : "Parent is required.",
+			"routeAlphaNumeric": "Route must be alphanumeric.",
+			"hostRequiredIfRouteNotNull": "Host is required, if Route is not empty.",
+			"priorityRequired" : "Priority is required.",
+			"priorityNoZero" : "Priority first digit cannot be zero.",
+			"pickFromSelection": "Please pick from selection."
+		},
+		"etc":{
+			"searchPlaceHolder":"Search Menus",
+			"yesno":[
+				"Yes",
+				"No"
+			],
+			"menuType":[
+				"Parent",
+				"Child"
+			]
+		}      
+   },
+   "pagenotfoundform":{
+      "title":"Page Not Found",
+      "body":"Page not found or being maintenance.",
+      "body2":"Please contact system administrator.",
+      "buttonnotfound":"Go To DashBoard"
+   },
+   "peopleform":{
+      "title-list":"List Profile",
+      "title-edit":"Edit Profile",
+      "title-add":"Add Profile",
+      "buttoncancel":"CANCEL",
+      "buttonsave":"SAVE",
+      "people":{
+         "title":"People Information",
+         "fullname":"Full Name",
+         "email":"Email",
+         "phone":"Phone",
+         "birthplace":"Birth Place",
+         "birthdate":"Birth Date"
+      },
+      "address":{
+         "title":"Address Information",
+         "buildingname":"Building Name",
+         "address":"Address",
+         "village/district":"Village and District",
+         "city/state":"City and State",
+         "rt/rw":"Rt / Rw",
+         "zipcode":"Zipcode"
+      },
+      "office":{
+         "title":"Office Information",
+         "workposition":"Work Position",
+         "directsupervisor":"Direct Supervisor",
+         "employetype":"Employe Type",
+         "companyname":"Company Name",
+         "activedate":"Active Date",
+         "inactivedate":"Inactive Date",
+         "employmentstatus":"Employment Status",
+         "department":"Department",
+         "division":"Division",
+         "workgroup":"Work Group",
+         "location":"Location"
+      }
+   },
+   "CalendarForm":{
+      "title":"Calendar Management",
+      "title-edit":"Edit Calendar Management",
+      "title-add":"Add Calendar Management",
+      "buttonsave":"UPDATE",
+      "buttonadd":"SAVE",
+      "date":"Choose Date",
+      "buttoncancel":"CANCEL",
+      "name":"Date event",
+      "descreption":"Date event description",
+      "dateTemp":"date",
+      "type":"type",
+      "RepeatPeriod":"Repeat period"
+   },
+   "menubar":{
+      "profile":"Profile",
+      "settings":"Settings",
+      "logout":"Logout"
+   },   
+   "companyform":{
+      "title-list":"Company Profile",
+      "title-edit":"Edit People",
+      "title-add":"Add People",
+      "buttoncancel":"CANCEL",
+      "buttonsave":"SAVE",
+      "buttonedit":"EDIT",
+      "companyInformation":"Company Information",
+      "company":{
+         "title":"People Information",
+         "fullname":"Company Name",
+         "companyType":"Company Type",
+         "companyGroup":"Company Group",
+         "industryType":"Industry Type",
+         "subindustryType":"Subindustry Type",
+         "establishedYear":" Established Year"
+      },
+      "address":{
+         "title":"Company Address",
+         "buildingname":"Building Name",
+         "address":"Address",
+         "village/district":"Village and District",
+         "city/state":"City and State",
+         "rt/rw":"Rt / Rw",
+         "zipcode":"Zipcode"
+      }
+   },
+   "officeform":{
+    "title":"Office Management",
+    "title-edit":"Detail Office Management",
+    "title-add":"Add Office Management",
+    "header-left":"Personal and Parent Information",
+    "header-right":"Personal and Parent Address Information",
+    "buttoncancel":"CANCEL",
+    "buttonsave":"SAVE",
+    "buttonedit":"EDIT",
+    "buttonback":"BACK",
+    "office":{
+       "officeHead":"Office Head",
+       "officeName":"Office Name",
+       "officeType":"Office Type",
+       "company":"Company Name"
+     },
+    "address":{
+       "title":"Company Address",
+       "buildingname":"Building Name",
+       "address":"Address",
+       "village/district":"Village and District",
+       "city/state":"City and State",
+       "city":"City",
+       "rt/rw":"Rt / Rw",
+       "zipcode":"Zipcode",
+       "action":"Action"
+    }
+ }
+,
+   "product": {
+      "title": "Product Management",
+      "buttonregister": "Add New Product",
+      "buttonsearch": "Search",
+      "buttonEntry": "Entry",
+      "code": "Code",
+      "name": "Name",
+      "description": "Description",
+      "startdate": "Start Date",
+      "birthPlace": "Birth Place",
+      "birthDate": "Birth Date",
+      "gender": "Gender",
+      "religion": "Religion",
+      "married": "Marital Status",
+      "dependNum": "Number Dependent",
+      "occupation": "Occupation",
+      "subOccupation": "Sub Occupation",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "compName": "Company Name",
+      "compGroup": "Company Group",
+      "compType": "Company Type",
+      "establish": "Establish Since",
+      "industry": "Industry Type",
+      "subindustry": "Subindustry Type",
+      "register": {
+         "title": "Register Customer",
+         "custType": "Choose Customer Type"
+      },
+      "detail": {
+         "title": "Customer Details",
+         "custType": "Customer Type"
+      },
+      "address": {
+         "addrType": "Address Type",
+         "addr": "Address",
+         "building": "Building Name",
+         "neighbour": "Neighbourhood Number",
+         "hamlet": "Hamlet Number",
+         "village": "Village",
+         "district": "District",
+         "subdistrict": "Sub District",
+         "city": "City",
+         "state": "State",
+         "zipcode": "Zipcode"
+      },
+      "identity": {
+         "idenType": "Identity Type",
+         "idNum": "Id Number",
+         "valid": "Valid Until"
+      },
+      "member": {
+         "workType": "Work Type"
+      },
+      "education": {
+         "educType": "Education Type",
+         "major": "Major",
+         "institution": "Institution Name",
+         "startDate": "Start Date",
+         "endDate": "Until"
+      },
+      "family": {
+         "famiType": "Family Type"
+      },
+      "income": {
+         "incoType": "Income Type",
+         "amount": "Amount"
+      },
+      "work": {
+         "workType": "Work Type",
+         "position": "Work Position",
+         "length": "Length of Work",
+         "emplStat": "Employment Status"
+      }
+   }
+
+
+}

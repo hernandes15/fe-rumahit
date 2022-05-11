@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+.ui-paginator {
+    margin: 0;
+    text-align: right;
+    padding: 125em;
+}

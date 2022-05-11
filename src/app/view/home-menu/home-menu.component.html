@@ -1,0 +1,57 @@
+<menu-message></menu-message>
+<div class="card card-no-border">
+  <div class="ui-g" style="padding-bottom: 0; text-align: left">
+    <div class="ui-g-6" style="padding: 0">
+      <h1>Home</h1>
+    </div>
+  </div>
+</div>
+
+<div class="card card-w-title shadow-effect" style="padding: 0">
+  <div class="ui-g">
+    <div
+      class="ui-g-12 ui-g-nopad"
+      style="background-color: #eeeeee; border-bottom: 1px solid silver"
+    >
+      <div style="padding: 10px 16px 10px 16px">
+        <h3 style="margin: 0; font-weight: 500; color: #0f4d81">
+          List Menu
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui-g" style="padding: 16px">
+    <form class="ui-g-12 ui-g-nopad">
+      <div class="ui-g-12">
+          <button
+            pButton
+            type="button"
+            (click)="inputPerusahaan()"
+            style="margin-right: 5px"
+            class="ui-button-default"
+            label="Input Perusahaan"
+          ></button>
+
+          <button
+            pButton
+            type="button"
+            (click)="inputTransaksi()"
+            style="margin-right: 5px"
+            class="ui-button-default"
+            label="Input Transaksi"
+          ></button>
+
+          <button
+            pButton
+            type="button"
+            (click)="csv()"
+            style="margin-right: 5px"
+            class="ui-button-default"
+            label="Export CSV"
+          ></button>
+
+      </div>
+    </form>
+  </div>
+</div>

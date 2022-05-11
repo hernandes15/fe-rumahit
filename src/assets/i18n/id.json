@@ -1,0 +1,432 @@
+{
+    "loginform": {
+        "titleheader": "Selamat Datang",
+        "titlechild": "Masuk ke dalam Sistem Engage",
+        "buttonlogin": "LOGIN",
+        "email": "Email",
+        "password": "Kata Sandi",
+        "placeholdercaptcha": "Masukkan Captcha",
+        "linkforgotpassword": "Lupa Kata Sandi?"
+    },
+    "forgotpasswordform": {
+        "title": "Lupa Kata Sandi",
+        "titlechild": "Reset password to Engage System",
+        "buttonforgot": "KIRIM",
+        "buttoncancel": "BATAL",
+        "email": "Email"
+    },
+    "submitforgotpasswordform": {
+        "title": "Permintaan Lupa Kata Sandi",
+        "body": "Permintaan Anda berhasil, terima kasih atas permintaan Anda mengatur ulang kata sandi. Kami akan mengirimkan tautan pesan ke Email Anda.",
+        "body2": "belum mendapatkan email?",
+        "linkbodysendemail": "klik disini",
+        "buttonsubmit": "KEMBALI KE LOGIN"
+    },
+    "resetpasswordform": {
+        "title": "Atur ulang kata sandi",
+        "newpassword": "Masukkan kata sandi baru",
+        "confirmnewpassword": "Konfirmasi kata sandi baru",
+        "buttonreset": "SIMPAN"
+    },
+    "settingform": {
+        "title": "Pengaturan",
+        "language": "Bahasa",
+        "userprofile": "Profil Pengguna",
+        "layout": "Tampilan",
+        "colors": "Warna",
+        "darkmode": "Mode Gelap"
+    },
+    "profileform": {
+        "title": "Profil",
+        "buttoncancel": "BATAL",
+        "buttonsave": "SIMPAN",
+        "people": {
+            "title": "Informasi Data Diri",
+            "fullname": "Nama Lengkap",
+            "email": "Email",
+            "phone": "Phone",
+            "birthplace": "Tempat Lahir",
+            "birthdate": "Tanggal Lahir"
+        },
+        "address": {
+            "title": "Informasi Alamat",
+            "buildingname": "Nama Gedung",
+            "address": "Alamat",
+            "village/district": "Desa dan Kecamatan",
+            "city/state": "Kota dan Provinsi",
+            "rt/rw": "Rt / Rw",
+            "zipcode": "Kode Pos"
+        },
+        "office": {
+            "title": "Informasi Kantor",
+            "workposition": "Jabatan",
+            "directsupervisor": "Atasan Langsung",
+            "employetype": "Jenis Pekerjaan",
+            "companyname": "Nama Perusahaan",
+            "activedate": "Tanggal Aktif",
+            "inactivedate": "Tanggal Tidak Aktif",
+            "employmentstatus": "Status Pekerjaan",
+            "department": "Departemen",
+            "division": "Divisi",
+            "workgroup": "Kelompok Kerja",
+            "location": "Lokasi"
+        }
+    },
+    "customer": {
+        "title": "Manajemen Pelanggan",
+        "buttonregister": "Daftar Pelanggan",
+        "buttonsearch": "Cari",
+        "buttonEntry": "Entri",
+        "salutation": "Panggilan",
+        "fullname": "Nama Lengkap",
+        "idenNum": "Nomor Identitas",
+        "momName": "Nama Ibu",
+        "birthPlace": "Tempat Lahir",
+        "birthDate": "Tanggal Lahir",
+        "gender": "Jenis Kelamin",
+        "religion": "Agama",
+        "married": "Status Pernikahan",
+        "dependNum": "Jumlah Tanggungan",
+        "occupation": "Pekerjaan",
+        "subOccupation": "Sub Pekerjaan",
+        "phone": "Nomor Telepon",
+        "email": "Alamat Email",
+        "compName": "Nama Perusahaan",
+        "compGroup": "Group Perusahaan",
+        "compType": "Tipe Perusahaan",
+        "establish": "Didirikan Sejak",
+        "industry": "Tipe Industri",
+        "subindustry": "Tipe Subindustri",
+        "register": {
+            "title": "Pendaftaran Pelanggan",
+            "custType": "Pilih Jenis Pelanggan"
+        },
+        "detail": {
+            "title": "Detail Pelanggan",
+            "custType": "Tipe Pelanggan"
+        },
+        "address": {
+            "addrType": "Tipe Alamat",
+            "addr": "Alamat",
+            "building": "Nama Gedung",
+            "neighbour": "Nomor RT",
+            "hamlet": "Nomor RW",
+            "village": "Kelurahan/Desa",
+            "district": "Kabupaten",
+            "subdistrict": "Kecamatan",
+            "city": "Kota",
+            "state": "Kode Provinsi",
+            "zipcode": "Zipcode"
+        },
+        "identity": {
+            "idenType": "Tipe Identitas",
+            "idNum": "Nomor Id",
+            "valid": "Berlaku Hingga"
+        },
+        "member": {
+            "workType": "Jabatan"
+        },
+        "education": {
+            "educType": "Tipe Edukasi",
+            "major": "Jurusan",
+            "institution": "Nama Institusi",
+            "startDate": "Tanggal Mulai",
+            "endDate": "Sampai"
+        },
+        "family": {
+            "famiType": "Hubungan Keluarga"
+        },
+        "income": {
+            "incoType": "Tipe Penghasilan",
+            "amount": "Jumlah"
+        },
+        "work": {
+            "workType": "Tipe Pekerjaan",
+            "position": "Jabatan",
+            "length": "Lama Bekerja",
+            "emplStat": "Status Kepegawaian"
+        }
+    },
+    "userForm": {
+        "titleList": "Manajemen User",
+        "titleRegister": "Registrasi User",
+        "titleDetail": "Detail User",
+        "popupSuccess": "Berhasil",
+        "popupError": "Gagal",
+        "invalid": "Form masih tidak valid",
+        "errorGeneric": "Terjadi kesalahan pada server",
+        "noRoles": "Tidak Ada Role",
+        "button": {
+            "register": "REGISTRASI",
+            "search": "CARI",
+            "detail": "DETAIL",
+            "cancel": "BATAL",
+            "save": "SIMPAN",
+            "edit": "UBAH",
+            "reset": "RESET"
+        },
+        "tableField": {
+            "email": "Email",
+            "fullName": "Nama Lengkap",
+            "role": "Role",
+            "active": "Aktif",
+            "action": "Aksi"
+        },
+        "formField": {
+            "email": "Email",
+            "firstName": "Nama Depan",
+            "lastName": "Nama Belakang",
+            "active": "Aktif",
+            "password": "Kata Sandi",
+            "confPassword": "Konfirmasi Kata Sandi",
+            "role": "Role",
+            "selectedRole": "Role Pilihan",
+            "resetPassword": "Reset Kata Sandi"
+        },
+        "validation": {
+            "emailRequired": "Email wajib diisi.",
+            "emailNoWhiteSpace": "Email tidak hanya spasi atau dimulai dengan spasi.",
+            "emailFormat": "Email harus dalam format yang benar.",
+            "firstNameRequired": "Nama Depan wajib diisi.",
+            "firstNameNoWhiteSpace": "Nama Depan tidak hanya spasi atau dimulai dengan spasi.",
+            "firstNameAlphabet": "Nama Depan harus dalam alfabet.",
+            "lastNameRequired": "Nama Belakang wajib diisi.",
+            "lastNameNoWhiteSpace": "Nama Belakang tidak hanya spasi atau dimulai dengan spasi.",
+            "lastNameAlphabet": "Nama Belakang harus dalam alfabet.",
+            "passwordRequired": "Kata Sandi wajib diisi.",
+            "passwordMinLength": "Kata Sandi minimal 8 karakter.",
+            "passwordConfirm": "Konfirmasi Kata Sandi harus sama dengan Kata Sandi."
+        },
+        "etc": {
+            "searchPlaceHolder": "Cari User",
+            "yesno": [
+                "Iya",
+                "Tidak"
+            ]
+        }
+    },
+    "roleForm": {
+        "titleList": "Manajemen Role",
+        "titleRegister": "Tambah Role",
+        "titleDetail": "Detail Role",
+        "popupSuccess": "Berhasil",
+        "popupError": "Gagal",
+        "invalid": "Form masih tidak valid",
+        "errorGeneric": "Terjadi kesalahan pada server",
+        "button": {
+            "register": "REGISTRASI",
+            "search": "CARI",
+            "detail": "DETAIL",
+            "cancel": "BATAL",
+            "save": "SIMPAN",
+            "edit": "UBAH"
+        },
+        "tableField": {
+            "name": "Nama",
+            "description": "Deskripsi",
+            "active": "Aktif",
+            "action": "Aksi"
+        },
+        "formField": {
+            "name": "Nama",
+            "description": "Deskripsi",
+            "active": "Aktif",
+            "permission": "Hak Akses",
+            "button": "Tombol"
+        },
+        "validation": {
+            "nameRequired": "Nama wajib diisi.",
+            "nameNoWhiteSpace": "Nama tidak hanya spasi atau dimulai dengan spasi."
+        },
+        "etc": {
+            "searchPlaceHolder": "Cari Role",
+            "yesno": [
+                "Iya",
+                "Tidak"
+            ]
+        }
+    },
+    "menuForm": {
+        "titleList": "Manajemen Menu",
+        "titleRegister": "Tambah Menu",
+        "titleDetail": "Detail Menu",
+        "popupSuccess": "Berhasil",
+        "popupError": "Gagal",
+        "invalid": "Form masih tidak valid",
+        "errorGeneric": "Terjadi kesalahan pada server",
+        "button": {
+            "register": "REGISTRASI",
+            "search": "CARI",
+            "detail": "DETAIL",
+            "cancel": "BATAL",
+            "save": "SIMPAN",
+            "edit": "UBAH"
+        },
+        "tableField": {
+            "name": "Nama",
+            "moduleCategory": "Modul",
+            "type": "Tipe",
+            "priority": "Prioritas",
+            "active": "Aktif",
+            "action": "Aksi"
+        },
+        "formField": {
+            "name": "Nama",
+            "description": "Deskripsi",
+            "icon": "Ikon",
+            "module": "Modul",
+            "type": "Tipe",
+            "parent": "Parent",
+            "route": "Rute",
+            "host": "Alamat",
+            "priority": "Prioritas",
+            "active": "Aktif",
+            "iconPreview": "Pratinjau Ikon:",
+            "noIcon": "Tidak ada Ikon",
+            "button": "Tombol",
+            "selectedButton": "Tombol Pilihan"
+        },
+        "validation": {
+            "nameRequired": "Nama wajib diisi.",
+            "nameNoWhiteSpace": "Nama tidak hanya spasi atau dimulai dengan spasi.",
+            "moduleRequired": "Modul wajib diisi.",
+            "typeNeedModule": "Mohon pilih Modul sebelum memilih Child.",
+            "typeRequired": "Tipe wajib diisi.",
+            "parentRequired": "Parent wajib diisi.",
+            "routeAlphaNumeric": "Rute harus dalam alfanumerik.",
+            "hostRequiredIfRouteNotNull": "Alamat wajib diisi, jika Rute tidak kosong.",
+            "priorityRequired": "Prioritas wajib diisi.",
+            "priorityNoZero": "Digit pertama Prioritas tidak boleh nol.",
+            "pickFromSelection": "Mohon memilih dari pilihan."
+        },
+        "etc": {
+            "searchPlaceHolder": "Cari Menu",
+            "yesno": [
+                "Iya",
+                "Tidak"
+            ],
+            "menuType": [
+                "Parent",
+                "Child"
+            ]
+        }
+    },
+    "pagenotfoundform": {
+        "title": "Halaman Tidak Ditemukan",
+        "body": "Halaman tidak ditemukan atau sedang dalam pemeliharaan.",
+        "body2": "Silakan hubungi sistem administrator.",
+        "buttonnotfound": "KEMBALI KE HALAMAN UTAMA"
+    },
+    "peopleform": {
+        "title-edit": "Ubah Data karyawan",
+        "title-list": "Daftar Data Kariawan",
+        "title-add": "Tambah Data karyawan",
+        "buttoncancel": "BATAL",
+        "buttonsave": "SIMPAN",
+        "people": {
+            "title": "Informasi Data Diri",
+            "fullname": "Nama Lengkap",
+            "email": "Email",
+            "phone": "Phone",
+            "birthplace": "Tempat Lahir",
+            "birthdate": "Tanggal Lahir"
+        },
+        "address": {
+            "title": "Informasi Alamat",
+            "buildingname": "Nama Gedung",
+            "address": "Alamat",
+            "village/district": "Desa dan Kecamatan",
+            "city/state": "Kota dan Provinsi",
+            "rt/rw": "Rt / Rw",
+            "zipcode": "Kode Pos"
+        },
+        "office": {
+            "title": "Informasi Kantor",
+            "workposition": "Jabatan",
+            "directsupervisor": "Atasan Langsung",
+            "employetype": "Jenis Pekerjaan",
+            "companyname": "Nama Perusahaan",
+            "activedate": "Tanggal Aktif",
+            "inactivedate": "Tanggal Tidak Aktif",
+            "employmentstatus": "Status Pekerjaan",
+            "department": "Departemen",
+            "division": "Divisi",
+            "workgroup": "Kelompok Kerja",
+            "location": "Lokasi"
+        }
+    },
+    "CalendarForm": {
+        "title": "Calendar",
+        "title-edit": "Ubah Calendar",
+        "title-add": "Tambah Calendar",
+        "buttonsave": "UBAH",
+        "buttonadd": "SIMPAN",
+        "date": "Pilih Tanggal",
+        "buttoncancel": "BATAL",
+        "name": "Tanggal acara",
+        "descreption": "Tanggal deskripsi acara",
+        "dateTemp": "Tanggal",
+        "RepeatPeriod": "Ulangi periode",
+        "type": "Tipe"
+    },
+    "menubar": {
+        "profile": "Profil",
+        "settings": "Pengaturan",
+        "logout": "Keluar"
+    },
+    "companyform": {
+        "title-list": "Profil Perusahaan",
+        "title-edit": "Ubah Pengguna",
+        "title-add": "Tambah Pengguna",
+        "buttoncancel": "BATAL",
+        "buttonsave": "SIMPAN",
+        "buttonedit": "UBAH",
+        "companyInformation": "Informasi Perusahaan",
+        "company": {
+            "title": "Informasi Perusahaan",
+            "fullname": "Nama Perusahaan",
+            "companyType": "Tipe Perusahaan",
+            "companyGroup": "Grup Perusahaan",
+            "industryType": "Jenis Industri",
+            "subindustryType": "Jenis Subindustri",
+            "establishedYear": " Tahun Didirikan"
+        },
+        "address": {
+            "title": "Alamat Perusahaan",
+            "buildingname": "Nama Kantor",
+            "address": "Alamat",
+            "village/district": "Desa dan Kecamatan",
+            "city/state": "Kota dan Negara",
+            "rt/rw": "Rt / Rw",
+            "zipcode": "Zipcode"
+        }
+    } ,
+   "officeform":{
+    "title":"Manajemen Kantor",
+    "title-edit":"Detail Manajemen Kantor",
+    "title-add":"Tambahkan Manajemen Kantor",
+    "header-left":"Informasi Pribadi dan Induk",
+    "header-right":"Informasi Alamat Pribadi dan Orangtua",
+    "buttoncancel":"BATAL",
+    "buttonsave":"SIMPAN",
+    "buttonedit":"UBAH",
+    "buttonback":"KEMBALI",
+    "office":{
+       "officeHead":"Kepala Kantor",
+       "officeName":"Nama kantor",
+       "officeType":"Jenis Kantor",
+       "company":"Nama Perusahaan"
+     },
+    "address":{
+       "title":"Alamat perusahaan",
+       "buildingname":"nama bangunan",
+       "address":"Alamat",
+       "village/district":"Village and District",
+       "city/state":"Desa dan Kecamatan",
+       "city":"Kota",
+       "rt/rw":"Rt / Rw",
+       "zipcode":"Zipcode",
+       "action":"Tindakan"
+    }
+ }
+}

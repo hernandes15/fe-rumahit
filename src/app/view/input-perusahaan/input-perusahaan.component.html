@@ -1,0 +1,103 @@
+<menu-message></menu-message>
+<div class="card card-no-border">
+  <div class="ui-g" style="padding-bottom: 0; text-align: left">
+    <div class="ui-g-6" style="padding: 0">
+      <h1>Perusahaan</h1>
+    </div>
+    <div class="ui-g-6" style="text-align: right; padding: 0">
+      <button
+        pButton
+        type="button"
+        (click)="cancel()"
+        icon="pi pi-times"
+        style="margin-right: 5px"
+        class="ui-button-danger"
+        label="Batal"
+      ></button>
+      <button
+        pButton
+        type="button"
+        [disabled]="!perusahaanForm.valid"
+        (click)="save()"
+        label="Simpan"
+        class="ui-button-primary"
+        icon="pi pi-save"
+      ></button>
+    </div>
+  </div>
+</div>
+
+<div class="card card-w-title shadow-effect" style="padding: 0">
+  <div class="ui-g">
+    <div
+      class="ui-g-12 ui-g-nopad"
+      style="background-color: #eeeeee; border-bottom: 1px solid silver"
+    >
+      <div style="padding: 10px 16px 10px 16px">
+        <h3 style="margin: 0; font-weight: 500; color: #0f4d81">
+          Informasi Perusahaan
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui-g" style="padding: 16px">
+    <form class="ui-g-12 ui-g-nopad" [formGroup]="perusahaanForm">
+      <div class="ui-g-6">
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Kode Perusahaan
+            <span style="color: red">*</span>
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <input formControlName="kode" pInputText type="text" />
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !perusahaanForm.controls['kode'].valid &&
+            (perusahaanForm.controls['kode'].dirty ||
+              perusahaanForm.controls['kode'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="perusahaanForm.get('kode').errors.required"
+              severity="error"
+              text="Kode Perusahaan wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Nama Perusahaan
+            <span style="color: red">*</span>
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <input formControlName="nama" pInputText type="text" />
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !perusahaanForm.controls['nama'].valid &&
+            (perusahaanForm.controls['nama'].dirty ||
+              perusahaanForm.controls['nama'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="perusahaanForm.get('nama').errors.required"
+              severity="error"
+              text="Nama Perusahaan wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+      </div>
+      <div class="ui-g-6"></div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+<menu-message></menu-message>
+<div class="card card-no-border">
+  <div class="ui-g" style="padding-bottom: 0; text-align: left">
+    <div class="ui-g-6" style="padding: 0">
+      <h1>Login</h1>
+    </div>
+    <div class="ui-g-6" style="text-align: right; padding: 0">
+      
+    </div>
+  </div>
+</div>
+
+<div class="card card-w-title shadow-effect" style="padding: 0">
+ 
+  <div class="ui-g" style="padding: 16px">
+    <form class="ui-g-12 ui-g-nopad" [formGroup]="loginForm">
+      <div class="ui-g-6">
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Username
+            <span style="color: red">*</span>
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <input formControlName="username" pInputText type="text" />
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !loginForm.controls['username'].valid &&
+            (loginForm.controls['username'].dirty ||
+              loginForm.controls['username'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="loginForm.get('username').errors.required"
+              severity="error"
+              text="Username wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Password
+            <span style="color: red">*</span>
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <input formControlName="password" pInputText type="password" />
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !loginForm.controls['password'].valid &&
+            (loginForm.controls['password'].dirty ||
+              loginForm.controls['password'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="loginForm.get('password').errors.required"
+              severity="error"
+              text="Password wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-12 ui-lg-12 ui-md-12" dir="rtl">
+            <button
+              pButton
+              type="button"
+              [disabled]="!loginForm.valid"
+              (click)="login()"
+              label="Login"
+              class="ui-button-success"
+            ></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="ui-g-6"></div>
+    </form>
+  </div>
+</div>

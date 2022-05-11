@@ -1,0 +1,134 @@
+<menu-message></menu-message>
+<div class="card card-no-border">
+  <div class="ui-g" style="padding-bottom: 0; text-align: left">
+    <div class="ui-g-6" style="padding: 0">
+      <h1>Transaksi</h1>
+    </div>
+    <div class="ui-g-6" style="text-align: right; padding: 0">
+      <button
+        pButton
+        type="button"
+        (click)="cancel()"
+        icon="pi pi-times"
+        style="margin-right: 5px"
+        class="ui-button-danger"
+        label="Batal"
+      ></button>
+      <button
+        pButton
+        type="button"
+        [disabled]="!transaksiForm.valid"
+        (click)="save()"
+        label="Simpan"
+        class="ui-button-primary"
+        icon="pi pi-save"
+      ></button>
+    </div>
+  </div>
+</div>
+
+<div class="card card-w-title shadow-effect" style="padding: 0">
+  <div class="ui-g">
+    <div
+      class="ui-g-12 ui-g-nopad"
+      style="background-color: #eeeeee; border-bottom: 1px solid silver"
+    >
+      <div style="padding: 10px 16px 10px 16px">
+        <h3 style="margin: 0; font-weight: 500; color: #0f4d81">
+          Informasi Transaksi
+        </h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui-g" style="padding: 16px">
+    <form class="ui-g-12 ui-g-nopad" [formGroup]="transaksiForm">
+      <div class="ui-g-6">
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Nama Perusahaan
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <p-dropdown
+              [options]="list_perusahaan"
+              formControlName="idCompany"
+              placeholder="Pilih Nama Perusahaan"
+            ></p-dropdown>
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !transaksiForm.controls['idCompany'].valid &&
+            (transaksiForm.controls['idCompany'].dirty ||
+              transaksiForm.controls['idCompany'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="transaksiForm.get('idCompany').errors.required"
+              severity="error"
+              text="Nama Perusahaan wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Nama Barang
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <p-dropdown
+              [options]="list_barang"
+              formControlName="idBarang"
+              placeholder="Pilih Nama Barang"
+            ></p-dropdown>
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !transaksiForm.controls['idBarang'].valid &&
+            (transaksiForm.controls['idBarang'].dirty ||
+              transaksiForm.controls['idBarang'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="transaksiForm.get('idBarang').errors.required"
+              severity="error"
+              text="Nama Barang wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+        <div class="ui-g-12 ui-g-nopad">
+          <div class="ui-g-4 ui-lg-4 ui-md-4">
+            Total Barang
+          </div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8 ui-fluid">
+            <input formControlName="totalBarang" pInputText type="number" />
+          </div>
+        </div>
+        <div
+          class="ui-g-12 ui-g-nopad"
+          *ngIf="
+            !transaksiForm.controls['totalBarang'].valid &&
+            (transaksiForm.controls['totalBarang'].dirty ||
+              transaksiForm.controls['totalBarang'].touched)
+          "
+        >
+          <div class="ui-g-4 ui-lg-4 ui-md-4"></div>
+          <div class="ui-g-8 ui-lg-8 ui-md-8">
+            <p-message *ngIf="transaksiForm.get('totalBarang').errors.required"
+              severity="error"
+              text="Total Barang wajib diisi."
+            ></p-message>
+          </div>
+        </div>
+
+      </div>
+      <div class="ui-g-6"></div>
+    </form>
+  </div>
+</div>

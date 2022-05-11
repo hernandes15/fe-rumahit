@@ -1,0 +1,1 @@
+Sample structure code for microfrontend.
